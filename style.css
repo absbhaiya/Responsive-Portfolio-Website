@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    list-style: none;
+    height: 10vh;
+    background-color: skyblue;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#name{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body-container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container{
+    position: relative;
+    background-image: url(/images/body.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0vh;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: skyblue;
+    z-index: 1;
+}
+
+.body-text{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.firstword{
+    color: blue;
+}
+
+.resume-cta{
+    border: 2px solid;
+    width: 175px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.resume-text{
+    color: white;
+    align-items: center;
+}
+
+.resume-cta :hover{
+    background-color: grey;
+}
+
+
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.projects-container{
+    width: 100%;
+    height: auto;
+}
+
+.projects-header{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.iub-projects{
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: black;
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/project.jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+.text-container{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+.name{
+    margin-top: 10px;
+    color: blue;
+    font-size: 2rem;
+}
+
+.content{
+    padding: 25px;
+    color: black;
+    text-align: justify;
+}
+
+.button{
+    border: 2px solid;
+    width: 160px;
+    box-shadow: black;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.about-container{
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    box-shadow: black;
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap; 
+}
+
+.about-image{
+    height: 450px;
+    width: 450px;
+    background-image: url(/images/about.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+.about-text{
+    height: auto;
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.social-icons{
+    display: flex;
+    text-decoration: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 30%;
+    margin: 25% 35%;
+    padding-top: 30px;
+}
+
+.contact-header{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
